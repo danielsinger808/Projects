@@ -1,0 +1,39 @@
+TAMAGOTCHI — HOW TO PLAY                                                                                                        
+  ========================                                                                                                                                                                                                                                          
+  Your Tamagotchi has four stats, each from 0 to 100:                                                                                 HUNGER     — how full it is. Drops fast. If it hits 0, health drains.
+    HAPPINESS  — its mood. Drops slowly.                                                                                          
+    ENERGY     — how rested it is. Drops fast.
+    HEALTH     — its life force. Only drops when starving. Hits 0 = death.
+
+  ACTIONS
+  -------
+    feed   — restores hunger (+30)
+    play   — restores happiness (+20) but costs energy (-15)
+    sleep  — restores energy (+25/turn) over 3 auto-advancing turns
+    check  — redisplay stats without advancing a turn
+    save   — save your game and quit (resume anytime)
+    quit   — save and exit
+
+  Each action (except check and save) advances time by one turn and
+  triggers a stat decay cycle.
+
+  MOODS
+  -----
+    (^‿^)   Happy   — hunger, happiness, and energy are all healthy
+    (-_-)   Neutral — stats are okay but not great
+    (;_;)   Sad     — at least one stat is critically low
+    (-.-)zzZ  Sleeping — resting, no input needed
+
+  TIPS
+  ----
+    - Feed before hunger hits 0 or health will start dropping.
+    - Don't play when energy is low — it can bottom out fast.
+    - Sleep is the only way to restore energy. Use it often.
+    - Health does not recover on its own — keep hunger up.
+    - Your save file is loaded automatically on startup.
+    - If your Tamagotchi dies, the save file is deleted.
+
+  SURVIVAL GOAL
+  -------------
+    Keep all four stats above 0 for as many turns as possible.
+    How long can yours live?
